@@ -166,4 +166,7 @@ localStorage.setItem("Movies", JSON.stringify(movies));
 displayMovies(movies);
 
 resetData();
+
+addBtn.classList.remove("d-none");
+updateBtn.classList.add("d-none");
 }
